@@ -1,0 +1,43 @@
+.background-img {
+	background-image: url('../../../assets/compressed/bio.png');
+	min-height: 900px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-around;
+}
+
+legend {
+	color: #FFF;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 10px #FFF;
+	font-family: 'Montez', arial;
+}
+
+label {
+	color: #FFF;
+}
+
+.isSent,
+.notSent {
+	margin-top: 15px;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+    font-weight: bold;
+}
+.isSent {
+	background-color: green;
+}
+.notSent {
+	background-color: red;
+}
+
+.invalid {
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+}
